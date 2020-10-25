@@ -16,10 +16,6 @@ const (
 
 func GetPerson(id int) (*domain.People, utils.Error) {
 	response := rest.Get(fmt.Sprintf(apiPerson, id))
-	if response == nil || response.Response == nil {
-		return nil, utils.NewRestError("invalid id param", http.StatusInternalServerError)
-	}
-
 	if response.StatusCode > 299 {
 		return nil, utils.NewRestError("error in the external api", http.StatusInternalServerError)
 	}
@@ -37,10 +33,6 @@ func GetPlanet(planetEndpoint string) (*domain.Planets, utils.Error) {
 	//fixing a little error from api
 	apiEndpointFixed := helpers.RedirectHttps(planetEndpoint)
 	response := rest.Get(apiEndpointFixed)
-	if response == nil || response.Response == nil {
-		return nil, utils.NewRestError("invalid id param", http.StatusInternalServerError)
-	}
-
 	if response.StatusCode > 299 {
 		return nil, utils.NewRestError("error in the external api", http.StatusInternalServerError)
 	}
