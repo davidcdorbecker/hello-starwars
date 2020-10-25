@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"hello-starwars/domain"
 	"hello-starwars/providers"
+	"hello-starwars/utils"
 )
 
 var (
@@ -13,10 +14,10 @@ var (
 type challengeService struct{}
 
 type ChalllengeServiceInterface interface {
-	HelloStarwars(id int) (*domain.HelloMessage, error)
+	SayHelloFromSWAPI(id int) (*domain.HelloMessage, utils.Error)
 }
 
-func (cs *challengeService) HelloStarwars(id int) (*domain.HelloMessage, error) {
+func (cs *challengeService) SayHelloFromSWAPI(id int) (*domain.HelloMessage, utils.Error) {
 	person, err := providers.GetPerson(id)
 	if err != nil {
 		return nil, err
