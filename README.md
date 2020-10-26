@@ -4,7 +4,7 @@ Brief challenge
 This challenge was develop in Golang v 1.15
 
 
-This api is a brief challenge. It has only two endpoints: 
+This API is a brief challenge. It has the following two endpoints: 
 
 ## /challenge
 This enpoint only display a hello world message.
