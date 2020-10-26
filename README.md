@@ -1,15 +1,28 @@
 # hello-starwars
 Brief challenge 
 
+This challenge was develop in Golang v 1.15
+
 
 This api is a brief challenge. It has only two endpoints: 
 
 ## /challenge
 This enpoint only display a hello world message.
 
-## /challenge/starwars
-This endpoint will display a custom hellow message from SWAPI. You need to pass a valid id integer, for example: 
-/challenge/starwars/1
+## /challenge/starwars?id=1
+This endpoint will display a custom hellow message from SWAPI. It will display a greeting given an id (valid integer of the SWAPI), for example: 
+
+```javascript
+ {
+    "name": "Luke Skywalker",
+    "Planet": {
+        "name": "Tatooine"
+    },
+    "message": "Hello!! I am Luke Skywalker and I'm from Tatooine, nice to meet you!"
+ }
+
+```
 
 To run this API you only have to run this command in src: 
+
 go run main.go
