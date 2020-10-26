@@ -30,45 +30,47 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Test.starwars_provider_test.go">
-    <configuration name="go build hello-starwars" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestHelloStarWarsNotFound in hello-starwars/controllers">
+    <configuration name="TestHelloStarWars in hello-starwars/controllers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="hello-starwars" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/controllers" />
+      <framework value="gotest" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="hello-starwars" />
+      <package value="hello-starwars/controllers" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestHelloStarWars\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build starwars_provider.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHelloStarWarsNotFound in hello-starwars/controllers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="hello-starwars" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/controllers" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="hello-starwars/controllers" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestHelloStarWarsNotFound\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="challenge_controller_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="hello-starwars" />
+      <working_directory value="$PROJECT_DIR$/controllers" />
+      <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/providers/starwars_provider.go" />
       <package value="hello-starwars" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/controllers/challenge_controller_test.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetPersonInvalidModel in hello-starwars/providers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="helpers_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="hello-starwars" />
-      <working_directory value="$PROJECT_DIR$/providers" />
+      <working_directory value="$PROJECT_DIR$/helpers" />
       <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="hello-starwars/providers" />
+      <kind value="FILE" />
+      <package value="hello-starwars" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestGetPersonInvalidModel\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestGetPersonNoError in hello-starwars/providers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="hello-starwars" />
-      <working_directory value="$PROJECT_DIR$/providers" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="hello-starwars/providers" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestGetPersonNoError\E$" />
+      <filePath value="$PROJECT_DIR$/helpers/helpers_test.go" />
       <method v="2" />
     </configuration>
     <configuration name="starwars_provider_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -83,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestHelloStarWarsNotFound in hello-starwars/controllers" />
+        <item itemvalue="Go Test.TestHelloStarWars in hello-starwars/controllers" />
+        <item itemvalue="Go Test.challenge_controller_test.go" />
+        <item itemvalue="Go Test.helpers_test.go" />
         <item itemvalue="Go Test.starwars_provider_test.go" />
-        <item itemvalue="Go Test.TestGetPersonInvalidModel in hello-starwars/providers" />
-        <item itemvalue="Go Build.go build starwars_provider.go" />
-        <item itemvalue="Go Test.TestGetPersonNoError in hello-starwars/providers" />
-        <item itemvalue="Go Build.go build hello-starwars" />
       </list>
     </recent_temporary>
   </component>
@@ -109,41 +111,76 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="2518" height="419" key="GridCell.Tab.0.bottom" timestamp="1603660127483">
+    <state width="2518" height="514" key="GridCell.Tab.0.bottom" timestamp="1603677099334">
       <screen x="1440" y="-417" width="2560" height="1440" />
     </state>
-    <state width="2518" height="419" key="GridCell.Tab.0.bottom/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603660127483" />
-    <state width="2518" height="419" key="GridCell.Tab.0.center" timestamp="1603660127481">
+    <state width="2518" height="514" key="GridCell.Tab.0.bottom/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603677099334" />
+    <state width="2518" height="419" key="GridCell.Tab.0.bottom/0.23.1440.877/4000.-75.1920.1057/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603667610287" />
+    <state width="2518" height="514" key="GridCell.Tab.0.center" timestamp="1603677099328">
       <screen x="1440" y="-417" width="2560" height="1440" />
     </state>
-    <state width="2518" height="419" key="GridCell.Tab.0.center/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603660127481" />
-    <state width="2518" height="419" key="GridCell.Tab.0.left" timestamp="1603660127480">
+    <state width="2518" height="514" key="GridCell.Tab.0.center/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603677099328" />
+    <state width="2518" height="419" key="GridCell.Tab.0.center/0.23.1440.877/4000.-75.1920.1057/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603667610286" />
+    <state width="2518" height="514" key="GridCell.Tab.0.left" timestamp="1603677099327">
       <screen x="1440" y="-417" width="2560" height="1440" />
     </state>
-    <state width="2518" height="419" key="GridCell.Tab.0.left/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603660127480" />
-    <state width="2518" height="419" key="GridCell.Tab.0.right" timestamp="1603660127482">
+    <state width="2518" height="514" key="GridCell.Tab.0.left/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603677099327" />
+    <state width="2518" height="419" key="GridCell.Tab.0.left/0.23.1440.877/4000.-75.1920.1057/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603667610285" />
+    <state width="2518" height="514" key="GridCell.Tab.0.right" timestamp="1603677099329">
       <screen x="1440" y="-417" width="2560" height="1440" />
     </state>
-    <state width="2518" height="419" key="GridCell.Tab.0.right/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603660127482" />
-    <state width="2518" height="514" key="GridCell.Tab.1.bottom" timestamp="1603658995511">
+    <state width="2518" height="514" key="GridCell.Tab.0.right/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603677099329" />
+    <state width="2518" height="419" key="GridCell.Tab.0.right/0.23.1440.877/4000.-75.1920.1057/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603667610286" />
+    <state width="2518" height="514" key="GridCell.Tab.1.bottom" timestamp="1603677100433">
       <screen x="1440" y="-417" width="2560" height="1440" />
     </state>
-    <state width="2518" height="514" key="GridCell.Tab.1.bottom/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603658995511" />
-    <state width="2518" height="514" key="GridCell.Tab.1.center" timestamp="1603658995510">
+    <state width="2518" height="514" key="GridCell.Tab.1.bottom/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603677100433" />
+    <state width="2518" height="514" key="GridCell.Tab.1.center" timestamp="1603677100432">
       <screen x="1440" y="-417" width="2560" height="1440" />
     </state>
-    <state width="2518" height="514" key="GridCell.Tab.1.center/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603658995510" />
-    <state width="2518" height="514" key="GridCell.Tab.1.left" timestamp="1603658995507">
+    <state width="2518" height="514" key="GridCell.Tab.1.center/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603677100432" />
+    <state width="2518" height="514" key="GridCell.Tab.1.left" timestamp="1603677100431">
       <screen x="1440" y="-417" width="2560" height="1440" />
     </state>
-    <state width="2518" height="514" key="GridCell.Tab.1.left/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603658995507" />
-    <state width="2518" height="514" key="GridCell.Tab.1.right" timestamp="1603658995510">
+    <state width="2518" height="514" key="GridCell.Tab.1.left/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603677100431" />
+    <state width="2518" height="514" key="GridCell.Tab.1.right" timestamp="1603677100432">
       <screen x="1440" y="-417" width="2560" height="1440" />
     </state>
-    <state width="2518" height="514" key="GridCell.Tab.1.right/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603658995510" />
+    <state width="2518" height="514" key="GridCell.Tab.1.right/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603677100432" />
     <state x="2428" y="42" width="584" height="522" key="find.popup" timestamp="1603658866969">
       <screen x="1440" y="-417" width="2560" height="1440" />
     </state>
     <state x="2428" y="42" width="584" height="522" key="find.popup/0.0.1440.900/4000.-98.1920.1080/1440.-417.2560.1440@1440.-417.2560.1440" timestamp="1603658866969" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/controllers/challenge_controller.go</url>
+          <line>17</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/controllers/challenge_controller.go</url>
+          <line>22</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/controllers/challenge_controller.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/controllers/challenge_controller.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/controllers/challenge_controller.go</url>
+          <line>19</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

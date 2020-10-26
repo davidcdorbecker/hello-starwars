@@ -7,15 +7,15 @@ import (
 	"hello-starwars/utils"
 )
 
-var (
-	ChallengeService ChalllengeServiceInterface = &challengeService{}
-)
-
 type challengeService struct{}
 
-type ChalllengeServiceInterface interface {
+type challlengeServiceInterface interface {
 	SayHelloFromSWAPI(id int) (*domain.HelloMessage, utils.Error)
 }
+
+var (
+	ChallengeService challlengeServiceInterface = &challengeService{}
+)
 
 func (cs *challengeService) SayHelloFromSWAPI(id int) (*domain.HelloMessage, utils.Error) {
 	person, err := providers.GetPerson(id)
