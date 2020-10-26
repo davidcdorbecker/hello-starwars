@@ -1,8 +1,7 @@
 # hello-starwars
 Brief challenge 
 
-This challenge was develop in Golang v 1.15
-
+This challenge was develop in Golang v 1.15 using go modules
 
 This API is a brief challenge. It has the following two endpoints: 
 
