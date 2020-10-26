@@ -29,8 +29,8 @@ go run main.go
 
 ## Dependencies
 
-Libraries used in this project: 
-github.com/gin-gonic/gin
-github.com/federicoleon/golang-restclient
-github.com/stretchr/testify
+#### Libraries used in this project: 
+##### github.com/gin-gonic/gin
+##### github.com/federicoleon/golang-restclient
+##### github.com/stretchr/testify
 
