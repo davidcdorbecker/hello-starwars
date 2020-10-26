@@ -23,6 +23,6 @@ This endpoint will display a custom hellow message from SWAPI. It will display a
 
 ```
 
-To run this API you only have to run this command in src: 
+To run this API you only have to run this command in src (default port: 8080): 
 
 go run main.go
