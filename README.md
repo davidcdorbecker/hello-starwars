@@ -26,3 +26,11 @@ This endpoint will display a custom hellow message from SWAPI. It will display a
 To run this API you only have to run this command in src (default port: 8080): 
 
 go run main.go
+
+## Dependencies
+
+Libraries used in this project: 
+github.com/gin-gonic/gin
+github.com/federicoleon/golang-restclient
+github.com/stretchr/testify
+
